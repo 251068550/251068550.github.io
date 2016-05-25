@@ -1,0 +1,86 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-color: ghostwhite;
+}
+
+a{
+    text-decoration: none;
+    color: sienna;
+}
+
+a:hover{
+    color: deepskyblue;
+}
+
+p{
+    font-size: 13px;
+}
+
+
+/*------------------------------------------------header部分--------------------------------------------------*/
+.header{
+    width: 1080px;
+    height: 400px;
+    margin: 0px auto 30px;
+}
+
+.title{
+    width: inherit;
+    height: 200px;
+}
+
+.tags{
+    width: 1080px;
+    height: 200px;
+    position: relative;
+    background: white;
+    border: 2px solid #cccccc;
+    box-shadow: 3px 3px 10px #ccc;
+    overflow: hidden;
+}
+
+.tags .tag{
+    margin: 20px 10px 0px 10px;
+    position: relative;
+    padding: 10px 20px;
+    width: auto;
+    height: 20px;
+    background: navajowhite;
+    border: 1px solid white;
+    float: left;
+}
+
+/*------------------------------------------------瀑布流部分--------------------------------------------------*/
+#container{
+
+    width: 1080px;
+    margin: 0px auto;
+    position: relative;
+}
+
+.box{
+    width: 248px;
+    height: auto;
+    float: left;
+    margin: 10px;
+}
+
+.box img{
+    width: 100%;
+    height: auto;
+    transition: all 0.3s;
+}
+
+.box img:hover{
+    box-shadow: 3px 3px 10px #ccc;
+    cursor: pointer;
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -o-transform: scale(1.05);
+    transform: scale(1.05);
+}

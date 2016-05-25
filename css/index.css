@@ -1,0 +1,300 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+
+}
+
+p{
+    font-size: 15px;
+    font-style: oblique;
+    word-spacing: 1px;
+    letter-spacing: 1px;
+}
+
+li{
+    list-style: none;
+    /*display: inline-block;*/
+    margin: 2px;
+}
+
+h3{
+    margin-top: 5px;
+    padding: 5px;
+}
+
+a{
+    text-decoration: none;
+    color: deepskyblue;
+    letter-spacing: 1px;
+}
+
+a:hover{
+    color: sienna;
+}
+
+/*------------------begin   通用样式按钮，按钮宽度修改button的width属性   ---------------------*/
+.button{
+    width: 200px;
+    height: 30px;
+    line-height: 30px;
+    display: block;
+}
+
+.button a{
+    background: deepskyblue;
+    color: white;
+    display: block;
+
+    text-align: center;
+    text-decoration: none;
+    letter-spacing: 2px;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    -webkit-box-shadow: 3px 3px 3px #ccc;
+    -moz-box-shadow: 3px 3px 3px #ccc;
+    box-shadow: 3px 3px 10px #ccc;
+}
+
+.button a:hover{
+    background: sienna;
+    color: white;
+}
+/*------------------end   通用样式按钮，按钮宽度修改button的width属性   ---------------------*/
+
+.home{
+    width: 100%;
+    height: auto;
+    background: url("../img/background.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+}
+
+.header{
+    width: 100%;
+    height: 600px;
+}
+
+.nav{
+    z-index: 2;
+    width: 100%;
+    height: 60px;
+    border: 1px solid cornflowerblue;
+    box-shadow: 2px 2px 5px #333333;
+    position: relative;
+    border-radius: 0px 0px 20px 20px;
+}
+
+.logo{
+    float: left;
+    width: auto;
+    height: 60px;
+    line-height: 60px;
+}
+
+.logo a{
+    font-size: 30px;
+    text-decoration: none;
+    color: #ffffff;
+    letter-spacing: 5px;
+    text-align: center;
+    margin: 30px 20px 10px 50px;
+    font-style: italic;
+    text-shadow: 3px 3px 3px #333;
+}
+
+.navbar{
+    line-height: 60px;
+}
+
+.navbar ul{
+    list-style: none;
+    float: right;
+    line-height:inherit;
+
+}
+
+.navbar ul li{
+    display: inline-block;
+    line-height: inherit;
+    height: inherit;
+    margin-right: 10px;
+}
+
+.navbar ul li a{
+    font-size: 18px;
+    text-decoration: none;
+    line-height: inherit;
+    color: blue;
+    font-style: oblique;
+    height: inherit;
+    padding: 20px;
+
+}
+
+.navbar ul li a:hover{
+    background: rgba(0,0,0,0.3);
+    color: #ffffff;
+}
+
+.banner{
+    width: 100%;
+    height: 600px;
+    background: rgba(0,0,0,0.3);
+}
+
+.banner-title{
+    width: 100%;
+    position: absolute;
+    margin: 200px auto;
+    text-align: center;
+    color: #ffffff;
+}
+
+.banner hr{
+    width: 500px;
+    margin-top: 230px ;
+    margin-left: 430px;
+    position: absolute;
+}
+
+.banner-content{
+    width: 400px;
+    position: absolute;
+    margin: 230px 200px 200px 480px;
+    text-align: center;
+    color: #ffffff;
+    padding: 10px;
+}
+
+.footer{
+    width: 100%;
+    height: auto;
+    background: lightblue;
+}
+
+.footer .about{
+    width: 100%;
+    height: 450px;
+
+}
+
+.footer .about .about-me {
+    padding-top: 50px;
+    width: 40%;
+    height: 400px;
+    float: left;
+    position: relative;
+}
+
+.footer .about .about-me h1{
+    margin-left: 90px;
+    margin-bottom: 20px;
+    color: red;
+    display: block;
+}
+
+.footer .about .about-me .items{
+    width: 400px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.footer .about .about-me .items p{
+    padding: 5px;
+    font-size: 20px;
+}
+
+.other-platforms{
+    width: 400px;
+    height: auto;
+    margin: 30px auto;
+}
+
+.other-platforms img{
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.footer .about .contact-me{
+    width: 50%;
+    height: 350px;
+    float: left;
+    border: 1px solid gray;
+    margin-top: 50px;
+}
+
+#name{
+    letter-spacing: 1px;
+    font-size: 15px;
+    width: 43%;
+    height: 40px;
+    margin: 30px 10px 20px 30px;
+    float: left;
+    border: 1px solid gray;
+}
+
+#email{
+    letter-spacing: 1px;
+    font-size: 15px;
+    width: 43%;
+    height: 40px;
+    margin: 30px 10px 20px 10px;
+    float: left;
+    border: 1px solid gray;
+}
+
+#content{
+    letter-spacing: 1px;
+    font-size: 15px;
+    margin-left: 30px;
+    clear: both;
+    width: 90%;
+    height: 180px;
+    border: 1px solid gray;
+    overflow-y: hidden;
+}
+
+#name:focus{
+    border: 1px solid deepskyblue;
+}
+
+#email:focus{
+    border: 1px solid deepskyblue;
+}
+
+#content:focus{
+    border: 1px solid deepskyblue;
+}
+
+#send{
+    margin: 20px auto;
+}
+
+.footer .foot{
+    width: 100%;
+    height: 50px;
+    background: dimgray;
+    clear: both;
+}
+
+.footer .foot span{
+    width: 100%;
+    height: auto;
+    padding-top: 15px;
+    display: block;
+    text-align: center;
+    font-family: Arial;
+    color: white;
+}
